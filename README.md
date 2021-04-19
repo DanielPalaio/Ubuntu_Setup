@@ -13,8 +13,8 @@
 **4.** Choose the language and select the option **Try Ubuntu**
 
 **5.** Open the Ubuntu Terminal to edit the grub (GRand Unified Bootloader) file:  
-       $ sudo nano /etc/default/grub  
-       Change **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"** to **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset noacpi"**
+>$ sudo nano /etc/default/grub  
+>Change **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"** to **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset noacpi"**
 
 **6.** Open the desktop shortcut **Install Ubuntu**, select the keyboard layout, and connect to the internet  
 
@@ -44,4 +44,4 @@ or
 
 **9.** Select the timezone, fill the required user information, and wait for the installation to complete  
 
-**10.** Reboot the PC
+**10.** Reboot PC
