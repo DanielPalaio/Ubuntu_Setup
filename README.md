@@ -8,7 +8,7 @@
   <img width="300" height="415" src="https://user-images.githubusercontent.com/79323290/115305210-e7ec8500-a15d-11eb-8d0b-4d48e8f17c24.png">
 </p>
 
-**3.** From the boot menu (Reboot PC and press Esc, F2, F10 or F12 keys), choose the option to boot from the flash drive
+**3.** From the boot menu (Reboot PC and press Esc, F2, F10 or F12 key), choose the option to boot from the flash drive
 
 **4.** Choose the language and select the option **Try Ubuntu**
 
