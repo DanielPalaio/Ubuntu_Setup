@@ -1,8 +1,8 @@
 # Ubuntu - Step by step tutorial to install Ubuntu desktop
 
-**1.** Download Ubuntu's .iso image file https://ubuntu.com/download/desktop
+**1.** In https://ubuntu.com/download/desktop, download Ubuntu's .iso image file
 
-**2.** Download Rufus bootloader tool https://rufus.ie/, and create a bootable portable flash drive with the parameters depicted in the following image:
+**2.** In https://rufus.ie/, download the Rufus bootloader tool, and create a bootable portable flash drive with the parameters depicted in the following image:
 
 <p align="center">
   <img width="300" height="415" src="https://user-images.githubusercontent.com/79323290/115305210-e7ec8500-a15d-11eb-8d0b-4d48e8f17c24.png">
