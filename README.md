@@ -1,6 +1,6 @@
 # Ubuntu - Step by step tutorial to install Ubuntu desktop
 
-**1.** In https://ubuntu.com/download/desktop, download Ubuntu's .iso image file
+**1.** In https://ubuntu.com/download/desktop, download the pretended Ubuntu's .iso image file
 
 **2.** In https://rufus.ie/, download the Rufus bootloader tool, and create a bootable portable flash drive with the parameters depicted in the following image:
 
@@ -8,11 +8,11 @@
   <img width="300" height="415" src="https://user-images.githubusercontent.com/79323290/115305210-e7ec8500-a15d-11eb-8d0b-4d48e8f17c24.png">
 </p>
 
-**3.** From the boot menu (Reboot PC and press Esc, F2, F10 or F12 key), choose the option to boot from the flash drive
+**3.** From the boot menu (Reboot PC and press Esc, F2, F10 or F12 key), choose the option to boot from flash drive
 
-**4.** Choose the language and select the option **Try Ubuntu**
+**4.** Choose the pretended language and select the option **Try Ubuntu**
 
-**5.** Open the Ubuntu Terminal to edit the grub (GRand Unified Bootloader) file:  
+**5.** Open Ubuntu Terminal to edit the grub (GRand Unified Bootloader) file:  
 >$ sudo nano /etc/default/grub  
 >Change **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"** to **GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset noacpi"**
 
@@ -20,14 +20,14 @@
 
 **7.** Select **Normal Installation** and checkmark both other options: **Download updates while installing Ubuntu** and **Install third-party software for graphics and Wi-Fi hardware and additional media formats**  
 
-**8.** In the **Installation type** section, choose:  
->**8.1** **Erase Ubuntu and reinstall** to format disk and install Ubuntu as the only Operative System  
+**8.** In the **Installation type** section, either choose:  
+>**8.1** **Erase Ubuntu and reinstall** to format disk and install Ubuntu as the only Operative System in the computer   
 or  
 >**8.2** **Something else** to keep other Operative Systems already installed  
 >>**8.2.1** Delete the non-ntfs type devices to arrange free space  
 >>**8.2.2** **Setup Swap Memory**  
 >>>**8.2.2.1** Select **free space** and press the on-screen button **+**  
->>>**8.2.2.2** Define the **size** to **double de RAM**  
+>>>**8.2.2.2** Define the **size** to **double the RAM**  
 >>>**8.2.2.3** Define the **Partition** to **Logical**  
 >>>**8.2.2.4** Define the **Location for the new partition** to **Beginning of this space**  
 >>>**8.2.2.5** Define **Use as** to **swap area**  
